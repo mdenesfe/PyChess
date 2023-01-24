@@ -17,7 +17,8 @@ class Main:
         game = self.game
 
         while True:
-            self.game.show(self.screen)
+            game.show(self.screen)
+            game.show_pieces(self.screen)
             for event in pygame.event.get():
                 if event.type == pygame.QUIT:
                     pygame.quit()
