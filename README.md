@@ -1,0 +1,2 @@
+# PyChess
+ chess with python
